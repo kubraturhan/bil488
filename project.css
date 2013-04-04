@@ -1,0 +1,116 @@
+		* {
+			margin:0;
+			padding:0;
+		}
+		body {
+			font-family:garamond;
+			font-size:1.2em;
+			margin: 0;
+			padding: 0;
+			background: #000 url(background.jpg) center center fixed no-repeat;
+			-moz-background-size: cover;
+			background-size: cover;
+			color: #fff;
+		}
+		h1 {
+			font-family: "Monotype Corsiva",cursive;
+			color:#D13D32;
+			margin-bottom:1.5em;
+			margin-top:1.5em;
+			text-align:left;
+			margin-left:200px;
+		}
+		h2 {
+			color: #993300;
+			font-family: "Monotype Corsiva",cursive;
+			font-size: 1em;
+			font-weight: bold;
+			margin-left:30px;
+		}
+		a {
+			text-decoration:none;
+			color:#D13D32;
+		}
+		
+		input {
+			margin-left: 15px;
+			width:475px;
+			padding:5px;
+			font-size:1em;
+			border:1px solid #D13D32;
+			border-radius:3px;
+			text-shadow: 0px 1px 0px #fff; 
+		}
+		input:focus {  
+			-webkit-box-shadow: 0px 0px 5px #007eff;  
+			-moz-box-shadow: 0px 0px 5px #007eff;  
+			box-shadow: 0px 0px 5px #007eff;  
+		}
+		input[type="button"] {
+			width: 180px;
+			
+			border:1px solid #D13D32;
+			border-radius:3px;
+			text-shadow: 0px 1px 0px #fff; 
+		}
+		.styled-select select {
+		   background: transparent;
+		   width: 100px;
+		   padding: 5px;
+		   font-size: 16px;
+		  
+		   border: 0;
+		   border-radius: 0;
+		   height: 30px;
+		   -webkit-appearance: none;
+		}
+		.styled-select{
+			margin-left:355px; 
+			margin-top:-30px;
+			width:75px;
+			height: 30px;
+			overflow: hidden;
+			background: url(down_arrow_select.jpg) no-repeat right #ddd;
+			border: 1px solid #ccc;
+		}
+		.user{
+		color:blue;
+		}
+		#tweet{
+			border:1px solid #993300;;
+			display: block;
+			padding: .4em;
+			margin: .4em 0;
+		}
+		#tweet-photo{
+			float: left;
+			margin-right: 1em;
+		}
+		#tweet-photo img{
+			border: 1px solid black;
+		}
+		
+		#query2{
+			width:35px;
+			height:28px;
+			background: transparent;
+		}
+		#result {
+			margin:1em;
+		}
+		#search_screen {
+			margin:0 auto;
+			width:700px;
+			color:black;
+		}
+		#select_second {
+			margin-top:10px;
+			margin-left:10px;
+		}
+		#submit{
+			font-family: "Monotype Corsiva",cursive;
+
+		}
+		#header{
+			margin:150px;
+		}

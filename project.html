@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>The Newest Tweets</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="project.js"></script>
+<link rel="stylesheet" href="project.css" />
+</head>
+<body>
+
+    <div id="search_screen">
+		<div id=header>
+		</div>
+        <input id="query" type="text" value=""  />
+		<input id="submit" type="button" value="Search" />
+		<div id="select_second">
+			<h2> SHOW ME THE LAST 
+				<input id="query2" type="text" value="5" />
+				TWEETS IN   
+				<div class="styled-select">
+					 <select name="mydropdown" id="combo" onchange="reload()">
+						<option value="60">60sn</option>
+						<option value="30">30sn</option>
+						<option value="20">20sn</option>
+						<option value="10" selected="selected">10sn</option>
+						<option value="5">5sn</option>
+						<option value="1">1sn</option>
+					</select>
+				</div>
+			</h2>
+		</div>
+		<div id="result">
+			<h2>No Tweets</h2>
+		</div>
+	</div>
+</body>
+</html>
